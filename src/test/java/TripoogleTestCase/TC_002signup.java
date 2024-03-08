@@ -21,7 +21,9 @@ public class TC_002signup extends BaseClass {
             Thread.sleep(5000);
             sf.confirmpasswordfield(password);
             sf.signupbtn();
-        } catch (Exception e) {
+        } 
+        catch (Exception e) 
+        {
             Assert.fail();
         }
     }

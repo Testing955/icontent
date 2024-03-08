@@ -35,7 +35,7 @@ WebElement btnadd;
 
 public void emaif()
 {
-txtemail.sendKeys("princehestabit7@gmail.com");
+txtemail.sendKeys("vkofjol@yopmail.com");
 }
 public void passwordf()
 {
