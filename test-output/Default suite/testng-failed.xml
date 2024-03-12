@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="IcontentTestCases.Resetpassword">
+      <class name="RallerTestCases.TC_002UserManagement">
         <methods>
-          <include name="verify_resetpassword"/>
+          <include name="usersetup"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- IcontentTestCases.Resetpassword -->
+      </class> <!-- RallerTestCases.TC_002UserManagement -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
