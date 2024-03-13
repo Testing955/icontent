@@ -21,7 +21,7 @@ driver.manage().window().maximize();
 }
 public String randomString()
 {
-String generatedString = RandomStringUtils.randomAlphabetic(7);
+String generatedString = RandomStringUtils.randomAlphabetic(3);
 return generatedString;
 }
 public String randomNumber()

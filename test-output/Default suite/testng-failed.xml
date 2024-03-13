@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RallerTestCases.TC_002UserManagement">
+      <class name="IcontentTestCases.Signupwithcode">
         <methods>
-          <include name="usersetup"/>
           <include name="setup"/>
+          <include name="verify_signup_registrationcode"/>
         </methods>
-      </class> <!-- RallerTestCases.TC_002UserManagement -->
+      </class> <!-- IcontentTestCases.Signupwithcode -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

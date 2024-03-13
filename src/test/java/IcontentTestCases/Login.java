@@ -24,7 +24,7 @@ lf.lname(randomString().toLowerCase());
 lf.efield(randomString().toLowerCase()+"@yopmail.com");
 lf.inumber(randomNumber());
 lf.sub();
-
+Thread.sleep(50000);
 }
 catch(Exception e)
 {
