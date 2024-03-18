@@ -16,7 +16,7 @@ public void setup()
 driver=new ChromeDriver();
 driver.get("https://urbansoccermanager-stag.hestalabs.com/login");
 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-driver.manage().deleteAllCookies();
+//driver.manage().deleteAllCookies();
 driver.manage().window().maximize();
 }
 public String randomString()

@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import Raller.FinalTesting;
 import RallerTestBase.BaseClass;
 
-public class Finaltestingchatbot extends BaseClass
+public class TC_006Finaltestingchatbot extends BaseClass
 {
 @Test
 public void finalsetup() throws InterruptedException

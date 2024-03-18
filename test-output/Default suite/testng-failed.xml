@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RallerTestCases.TC_005Existuserchat">
+      <class name="RallerTestCases.TC_003Usertitles">
         <methods>
+          <include name="usersetups"/>
           <include name="setup"/>
-          <include name="existuserchatt"/>
         </methods>
-      </class> <!-- RallerTestCases.TC_005Existuserchat -->
+      </class> <!-- RallerTestCases.TC_003Usertitles -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

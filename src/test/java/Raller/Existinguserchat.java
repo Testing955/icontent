@@ -15,7 +15,7 @@ this.driver=driver;
 @FindBy(xpath="/html/body/div[2]/div[1]/div/nav/li[4]/a")
 WebElement btnchatbot;
 //@FindBy(xpath="//*[@id=\"chatbox\"]/div[3]/button/p")
-@FindBy(xpath="//p[@class='text-base flex-1 leading-[26px] text-[#181C32] truncate text-start'][contains(text(),'when was 105 - Svillebytte form lastly filled?')]")
+@FindBy(xpath="//*[@id=\"chatbox\"]/div[2]/button/p")
 WebElement btnexistingchat;
 @FindBy(xpath="//*[@id=\"question\"]")
 WebElement txtques;

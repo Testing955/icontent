@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import Raller.Usertitle;
 import RallerTestBase.BaseClass;
 
-public class TC_003UserManagements extends BaseClass
+public class TC_003Usertitles extends BaseClass
 {
 
 	@Test
@@ -27,10 +27,29 @@ public class TC_003UserManagements extends BaseClass
 	Thread.sleep(5000);
 	ut.nextpage();
 	ut.rolechange();
+	ut.nextbutton();
+	Thread.sleep(10000);
+	String lastAddedUserEmail = ut.getLastAddedUserEmail();
+	Thread.sleep(5000);
+	ut.updaterole();
+
+    // Perform password reset with the last added user's email
+    ut.lout();
+    ut.fpwd();
+    ut.resetemail(lastAddedUserEmail);
+    ut.rpwd();
+    Thread.sleep(5000);
+    ut.back();
+    ut.backlogin();
+    ut.efield();
+    ut.pwdfield();
+    ut.login();
+    ut.list();
+
 	}
 	catch(Exception e)
 	{
-	Assert.fail();
-	}
+	Assert.fail("InterruptedException occurred: " + e.getMessage());
+    }
 	}
 	}
