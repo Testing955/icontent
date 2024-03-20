@@ -2,7 +2,7 @@ package RallerTestCases;
 
 import org.testng.annotations.Test;
 
-import Raller.Existinguserchat;
+import RallerPageObject.Existinguserchat;
 import RallerTestBase.BaseClass;
 
 public class TC_005Existuserchat extends BaseClass

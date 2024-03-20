@@ -18,10 +18,13 @@ import org.testng.annotations.Parameters;
 public class BaseClass 
 {
 public WebDriver driver;
+public Logger logger;
 //public Logger logger;
 @BeforeClass
 public void setup()
 {
+	//Loading log4j2file
+	logger = LogManager.getLogger(this.getClass());
 driver = new ChromeDriver();
 driver.manage().deleteAllCookies();
 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

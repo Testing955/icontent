@@ -1,0 +1,4 @@
+13:30:49.470 [main] INFO  RallerTestCases.TC_001Adminlogin - **** Starting TC_001Adminlogin ****
+13:30:54.690 [main] INFO  RallerTestCases.TC_001Adminlogin - ***** login userfield *****
+13:30:54.756 [main] INFO  RallerTestCases.TC_001Adminlogin - ***** login passwordfield *****
+13:30:54.803 [main] INFO  RallerTestCases.TC_001Adminlogin - ***** End TC_001Adminlogin *****

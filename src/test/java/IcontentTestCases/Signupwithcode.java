@@ -3,7 +3,7 @@ package IcontentTestCases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import Icontent.Signupprofessionalwithcode;
+import IcontentPageObject.Signupprofessionalwithcode;
 import IcontentTestBase.Baseclass;
 
 public class Signupwithcode extends Baseclass

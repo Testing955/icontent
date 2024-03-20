@@ -3,7 +3,7 @@ package IcontentTestCases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import Icontent.Createproject;
+import IcontentPageObject.Createproject;
 import IcontentTestBase.Baseclass;
 
 public class Projectcreationtestcases extends Baseclass

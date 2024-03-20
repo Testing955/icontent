@@ -3,6 +3,8 @@ package RallerTestBase;
 import java.time.Duration;
 
 import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeClass;
@@ -10,9 +12,12 @@ import org.testng.annotations.BeforeClass;
 public class BaseClass 
 {
 public WebDriver driver;
+public Logger logger;
 @BeforeClass
 public void setup()
 {
+//Loading log4j2file
+logger = LogManager.getLogger(this.getClass());
 driver = new ChromeDriver();
 driver.get("https://railverify.hestawork.com/login");
 driver.manage().window().maximize();

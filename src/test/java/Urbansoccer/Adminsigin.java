@@ -18,8 +18,10 @@ WebElement txtemailfield;
 WebElement txtpasswordfield;
 @FindBy(xpath="/html/body/div/div/div/div/div/div/div/div/div[1]/div/form/div[4]/div[1]/button")
 WebElement btnlogin;
-//@FindBy(xpath="/html/body/div[2]/div/div/div/div/div/div[1]/div/div/div/a")
-//WebElement btncreate;
+@FindBy(xpath="/html/body/div[2]/div/div/div/div/div/div[1]/div/div/div/a")
+WebElement btncreate;
+@FindBy(xpath="//*[@id=\"date\"]")
+WebElement btndate;
 public void efield()
 {
 txtemailfield.sendKeys("admin@urbansoccermanager.com");
@@ -32,10 +34,14 @@ public void loginfield()
 {
 btnlogin.click();
 }
-//public void createlogin()
-//{
-//btnlogin.click();	
-//}
+public void createlogin()
+{
+btncreate.click();	
+}
+public void butoon()
+{
+btndate.click();
+}
 }
 
 

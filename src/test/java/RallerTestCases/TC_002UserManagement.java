@@ -3,7 +3,7 @@ package RallerTestCases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import Raller.UserManagement;
+import RallerPageObject.UserManagement;
 import RallerTestBase.BaseClass;
 
 public class TC_002UserManagement extends BaseClass

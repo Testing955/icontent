@@ -3,7 +3,7 @@ package IcontentTestCases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import Icontent.Signuphomeowners;
+import IcontentPageObject.Signuphomeowners;
 import IcontentTestBase.Baseclass;
 
 public class signuphomeowners extends Baseclass

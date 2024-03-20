@@ -14,6 +14,9 @@ Adminsigin ad = new Adminsigin(driver);
 ad.efield();
 ad.pwdfield();
 ad.loginfield();
+Thread.sleep(5000);
+ad.createlogin();
+ad.butoon();
 
 }
 }

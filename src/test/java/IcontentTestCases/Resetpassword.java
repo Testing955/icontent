@@ -2,7 +2,7 @@ package IcontentTestCases;
 
 import org.testng.annotations.Test;
 
-import Icontent.Forgotpassword;
+import IcontentPageObject.Forgotpassword;
 import IcontentTestBase.Baseclass;
 
 public class Resetpassword extends Baseclass

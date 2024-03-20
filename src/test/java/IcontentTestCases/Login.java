@@ -3,7 +3,7 @@ package IcontentTestCases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import Icontent.Loginfunctionality;
+import IcontentPageObject.Loginfunctionality;
 import IcontentTestBase.Baseclass;
 
 public class Login extends Baseclass

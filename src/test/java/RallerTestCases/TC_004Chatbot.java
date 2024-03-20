@@ -3,7 +3,7 @@ package RallerTestCases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import Raller.NewUserChatbot;
+import RallerPageObject.NewUserChatbot;
 import RallerTestBase.BaseClass;
 
 public class TC_004Chatbot extends BaseClass

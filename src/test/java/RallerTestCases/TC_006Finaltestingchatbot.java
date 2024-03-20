@@ -2,7 +2,7 @@ package RallerTestCases;
 
 import org.testng.annotations.Test;
 
-import Raller.FinalTesting;
+import RallerPageObject.FinalTesting;
 import RallerTestBase.BaseClass;
 
 public class TC_006Finaltestingchatbot extends BaseClass

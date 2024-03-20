@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import Icontent.Createprofessional;
+import IcontentPageObject.Createprofessional;
 import IcontentTestBase.Baseclass;
 public class Professionalcreate extends Baseclass
 {

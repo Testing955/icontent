@@ -2,7 +2,7 @@ package RallerTestCases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import Raller.Usertitle;
+import RallerPageObject.Usertitle;
 import RallerTestBase.BaseClass;
 
 public class TC_003Usertitles extends BaseClass
