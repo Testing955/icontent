@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RallerTestCases.TC_001Adminlogin">
+      <class name="JaigerMeisterSuperAdminLogin.Tc_002JaigerMeisterSuperadminStats">
         <methods>
+          <include name="Statsoption"/>
           <include name="setup"/>
-          <include name="verifylogin"/>
         </methods>
-      </class> <!-- RallerTestCases.TC_001Adminlogin -->
+      </class> <!-- JaigerMeisterSuperAdminLogin.Tc_002JaigerMeisterSuperadminStats -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

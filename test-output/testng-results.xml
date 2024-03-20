@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-20T13:30:35 IST" name="Default suite" finished-at="2024-03-20T13:30:54 IST" duration-ms="19308">
+  <suite started-at="2024-03-20T20:12:35 IST" name="Default suite" finished-at="2024-03-20T20:12:55 IST" duration-ms="19930">
     <groups>
     </groups>
-    <test started-at="2024-03-20T13:30:35 IST" name="Default test" finished-at="2024-03-20T13:30:54 IST" duration-ms="19308">
-      <class name="RallerTestCases.TC_001Adminlogin">
-        <test-method is-config="true" signature="setup()[pri:0, instance:RallerTestCases.TC_001Adminlogin@4a883b15]" started-at="2024-03-20T13:30:35 IST" name="setup" finished-at="2024-03-20T13:30:49 IST" duration-ms="13939" status="PASS">
+    <test started-at="2024-03-20T20:12:35 IST" name="Default test" finished-at="2024-03-20T20:12:55 IST" duration-ms="19930">
+      <class name="JaigerMeisterSuperAdminLogin.Tc_002JaigerMeisterSuperadminStats">
+        <test-method is-config="true" signature="setup()[pri:0, instance:JaigerMeisterSuperAdminLogin.Tc_002JaigerMeisterSuperadminStats@4a883b15]" started-at="2024-03-20T20:12:35 IST" name="setup" finished-at="2024-03-20T20:12:39 IST" duration-ms="3372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifylogin()[pri:0, instance:RallerTestCases.TC_001Adminlogin@4a883b15]" started-at="2024-03-20T13:30:49 IST" name="verifylogin" finished-at="2024-03-20T13:30:54 IST" duration-ms="5340" status="PASS">
+        <test-method signature="Statsoption()[pri:0, instance:JaigerMeisterSuperAdminLogin.Tc_002JaigerMeisterSuperadminStats@4a883b15]" started-at="2024-03-20T20:12:39 IST" name="Statsoption" finished-at="2024-03-20T20:12:55 IST" duration-ms="16530" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifylogin -->
-      </class> <!-- RallerTestCases.TC_001Adminlogin -->
+        </test-method> <!-- Statsoption -->
+      </class> <!-- JaigerMeisterSuperAdminLogin.Tc_002JaigerMeisterSuperadminStats -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
