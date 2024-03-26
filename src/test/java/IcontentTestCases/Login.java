@@ -1,5 +1,7 @@
 package IcontentTestCases;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -11,12 +13,17 @@ public class Login extends Baseclass
 @Test
 public void verify_login()
 {
+logger.info("***starting of the testcase***");
 try
 {
+
 Loginfunctionality lf = new Loginfunctionality(driver);
 lf.emaif();
+logger.info("Clicked on account email link");
 lf.passwordf();
+logger.info("Clicked on account password link");
 lf.loginf();
+logger.info("Clicked on loginbutton link");
 lf.insurred();
 lf.ainsurred();
 lf.fname(randomString().toUpperCase());
@@ -28,10 +35,13 @@ Thread.sleep(50000);
 }
 catch(Exception e)
 {
-Assert.fail();
+logger.error("test failed...");	
+AssertJUnit.fail();
 }
 }
 }
+
+
 
 
 

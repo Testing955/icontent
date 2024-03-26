@@ -6,7 +6,7 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.BeforeClass;
 
 public class BaseClass 
@@ -18,7 +18,8 @@ public void setup()
 {
 //Loading log4j2file
 logger = LogManager.getLogger(this.getClass());
-driver = new ChromeDriver();
+//driver = new ChromeDriver();
+driver=new SafariDriver();
 driver.get("https://railverify.hestawork.com/login");
 driver.manage().window().maximize();
 driver.manage().deleteAllCookies();

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	<parameter name="os" value="mac"/>
+<parameter name="browser" value="safari"/>
+    <classes>
+      <class name="IcontentTestCases.Signupwithcode"/>
+      <class name="IcontentTestCases.signuphomeowners"/>
+      <class name="IcontentTestCases.Login"/>
+      <class name="IcontentTestCases.Professionalcreate"/>
+      <class name="IcontentTestCases.Signupclassprofessional"/>
+      <class name="IcontentTestCases.Signupclasswithemail"/>
+      <class name="IcontentTestCases.Resetpassword"/>
+      <class name="IcontentTestCases.Projectcreationtestcases"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

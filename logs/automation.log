@@ -2,3 +2,50 @@
 13:30:54.690 [main] INFO  RallerTestCases.TC_001Adminlogin - ***** login userfield *****
 13:30:54.756 [main] INFO  RallerTestCases.TC_001Adminlogin - ***** login passwordfield *****
 13:30:54.803 [main] INFO  RallerTestCases.TC_001Adminlogin - ***** End TC_001Adminlogin *****
+19:11:21.538 [main] INFO  IcontentTestCases.Login - ***starting of the testcase***
+19:11:30.768 [main] INFO  IcontentTestCases.Login - Clicked on account email link
+19:11:30.841 [main] INFO  IcontentTestCases.Login - Clicked on account password link
+19:11:30.900 [main] INFO  IcontentTestCases.Login - Clicked on loginbutton link
+19:20:37.501 [main] INFO  IcontentTestCases.Login - ***starting of the testcase***
+19:20:38.908 [main] INFO  IcontentTestCases.Login - Clicked on account email link
+19:20:38.981 [main] INFO  IcontentTestCases.Login - Clicked on account password link
+19:20:39.041 [main] INFO  IcontentTestCases.Login - Clicked on loginbutton link
+19:25:59.448 [main] INFO  IcontentTestCases.Login - ***starting of the testcase***
+19:26:00.812 [main] INFO  IcontentTestCases.Login - Clicked on account email link
+19:26:00.886 [main] INFO  IcontentTestCases.Login - Clicked on account password link
+19:26:00.950 [main] INFO  IcontentTestCases.Login - Clicked on loginbutton link
+19:31:33.668 [main] INFO  IcontentTestCases.Login - ***starting of the testcase***
+19:31:35.115 [main] INFO  IcontentTestCases.Login - Clicked on account email link
+19:31:35.193 [main] INFO  IcontentTestCases.Login - Clicked on account password link
+19:31:35.257 [main] INFO  IcontentTestCases.Login - Clicked on loginbutton link
+20:27:41.977 [main] INFO  IcontentTestCases.Login - ***starting of the testcase***
+20:27:52.025 [main] ERROR IcontentTestCases.Login - test failed...
+20:28:22.053 [main] INFO  IcontentTestCases.Login - ***starting of the testcase***
+20:28:27.049 [main] INFO  IcontentTestCases.Login - Clicked on account email link
+20:28:27.135 [main] INFO  IcontentTestCases.Login - Clicked on account password link
+20:28:27.195 [main] INFO  IcontentTestCases.Login - Clicked on loginbutton link
+20:37:59.613 [main] INFO  IcontentTestCases.Login - ***starting of the testcase***
+20:38:00.488 [main] ERROR IcontentTestCases.Login - test failed...
+07:50:47.810 [main] INFO  IcontentTestCases.Login - ***starting of the testcase***
+07:50:50.095 [main] INFO  IcontentTestCases.Login - Clicked on account email link
+07:50:50.165 [main] INFO  IcontentTestCases.Login - Clicked on account password link
+07:50:50.233 [main] INFO  IcontentTestCases.Login - Clicked on loginbutton link
+07:58:36.790 [main] INFO  IcontentTestCases.Login - ***starting of the testcase***
+07:58:36.794 [main] ERROR IcontentTestCases.Login - test failed...
+08:05:38.003 [main] INFO  IcontentTestCases.Login - ***starting of the testcase***
+08:11:54.765 [main] INFO  RallerTestCases.TC_001Adminlogin - **** Starting TC_001Adminlogin ****
+08:11:59.939 [main] INFO  RallerTestCases.TC_001Adminlogin - ***** login userfield *****
+08:12:00.036 [main] INFO  RallerTestCases.TC_001Adminlogin - ***** login passwordfield *****
+08:12:00.077 [main] INFO  RallerTestCases.TC_001Adminlogin - ***** End TC_001Adminlogin *****
+08:13:58.139 [main] INFO  IcontentTestCases.Login - ***starting of the testcase***
+08:14:05.441 [main] INFO  IcontentTestCases.Login - Clicked on account email link
+08:14:05.509 [main] INFO  IcontentTestCases.Login - Clicked on account password link
+08:14:05.564 [main] INFO  IcontentTestCases.Login - Clicked on loginbutton link
+08:21:42.417 [main] INFO  IcontentTestCases.Login - ***starting of the testcase***
+08:21:42.820 [main] INFO  IcontentTestCases.Login - Clicked on account email link
+08:21:42.996 [main] INFO  IcontentTestCases.Login - Clicked on account password link
+08:21:43.053 [main] INFO  IcontentTestCases.Login - Clicked on loginbutton link
+08:26:51.988 [TestNG-tests-1] INFO  IcontentTestCases.Login - ***starting of the testcase***
+08:26:55.024 [TestNG-tests-1] INFO  IcontentTestCases.Login - Clicked on account email link
+08:26:55.093 [TestNG-tests-1] INFO  IcontentTestCases.Login - Clicked on account password link
+08:26:55.149 [TestNG-tests-1] INFO  IcontentTestCases.Login - Clicked on loginbutton link

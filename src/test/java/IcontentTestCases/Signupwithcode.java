@@ -1,5 +1,7 @@
 package IcontentTestCases;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -43,7 +45,7 @@ public class Signupwithcode extends Baseclass
 	catch(Exception e)
 	{
 
-	Assert.fail();
+	AssertJUnit.fail();
 	}
 	}
 	}

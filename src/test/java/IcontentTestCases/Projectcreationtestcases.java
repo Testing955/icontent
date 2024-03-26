@@ -1,5 +1,7 @@
 package IcontentTestCases;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -29,7 +31,7 @@ cf.ap();
 catch(Exception e)
 {
 	 e.printStackTrace(); // This will print the stack trace to the console
-	    Assert.fail("Test failed due to exception: " + e.getMessage());
+	    AssertJUnit.fail("Test failed due to exception: " + e.getMessage());
 }
 }
 }

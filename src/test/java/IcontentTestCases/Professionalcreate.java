@@ -1,5 +1,7 @@
 package IcontentTestCases;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -26,7 +28,7 @@ cp.sendinvitation();
 }
 catch(Exception e)
 {
-Assert.fail();
+AssertJUnit.fail();
 }
 }
 }

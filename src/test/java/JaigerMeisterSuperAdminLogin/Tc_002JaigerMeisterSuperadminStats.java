@@ -21,10 +21,10 @@ Thread.sleep(5000);
 ss.stat();
 
 Thread.sleep(10000);
-/*ss.activities();
+ss.activities();
 ss.select();
 ss.report();
-Thread.sleep(5000);*/
+Thread.sleep(5000);
 ss.signout();
 }
 catch(Exception e)

@@ -16,8 +16,16 @@ ad.pwdfield();
 ad.loginfield();
 Thread.sleep(5000);
 ad.createlogin();
-ad.butoon();
-
+ad.Stringgamename(randomString().toLowerCase());
+Thread.sleep(10000);
+ad.ground();
+ad.teamhome();
+//Thread.sleep(5000);
+ad.teamaway();
+ad.controller();
+ad.breaktime();
+Thread.sleep(5000);
+ad.submitbutton();
 }
 }
 

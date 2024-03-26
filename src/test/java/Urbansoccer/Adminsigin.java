@@ -20,8 +20,20 @@ WebElement txtpasswordfield;
 WebElement btnlogin;
 @FindBy(xpath="/html/body/div[2]/div/div/div/div/div/div[1]/div/div/div/a")
 WebElement btncreate;
-@FindBy(xpath="//*[@id=\"date\"]")
-WebElement btndate;
+@FindBy(name="game_name")
+WebElement txtgamename;
+@FindBy(xpath="//option[normalize-space()='Street Soccer Park']")
+WebElement txtground;
+@FindBy(xpath="//option[normalize-space()='Caring Soccer Club']")
+WebElement txtHomeTeam;
+@FindBy(xpath="/html/body/div[2]/div/div/div/div/div/form/div[3]/div[2]/select")
+WebElement txtAwayTeam;
+@FindBy(xpath="//option[normalize-space()='Select the Controller of the Game']")
+WebElement txtcontroller;
+@FindBy(xpath="//option[normalize-space()='2m Halftime']")
+WebElement txtGameBreakTime;
+@FindBy(xpath="/html/body/div[2]/div/div/div/div/div/form/div[5]/button")
+WebElement Submit;
 public void efield()
 {
 txtemailfield.sendKeys("admin@urbansoccermanager.com");
@@ -38,9 +50,33 @@ public void createlogin()
 {
 btncreate.click();	
 }
-public void butoon()
+public void Stringgamename(String gname)
 {
-btndate.click();
+txtgamename.sendKeys(gname);
+}
+public void ground()
+{
+txtground.click();
+}
+public void teamhome()
+{
+txtHomeTeam.click();
+}
+public void teamaway()
+{
+txtAwayTeam.sendKeys("Honesty Soccer Club");;
+}
+public void controller()
+{
+txtcontroller.click();
+}
+public void breaktime()
+{
+txtGameBreakTime.click();
+}
+public void submitbutton()
+{
+Submit.click();
 }
 }
 

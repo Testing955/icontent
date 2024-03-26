@@ -20,7 +20,8 @@ WebElement txtEmail;
 WebElement txtPwd;
 @FindBy(xpath="//button[normalize-space()='Log in']")
 WebElement btnlogin;
-@FindBy(xpath="//a[normalize-space()='Campaign']")
+//@FindBy(xpath="")
+//@FindBy(xpath="//a[normalize-space()='Campaign']")
 WebElement btncampaign;
 @FindBy(xpath="//*[@id=\"filter_event\"]/span/span[1]/span/span/textarea")
 WebElement btnselectactivity;
@@ -28,6 +29,7 @@ WebElement btnselectactivity;
 WebElement drpall;
 @FindBy(xpath="//select[@id='country']")
 WebElement drpcountry;
+
 
 public void superemailfield()
 {
@@ -61,4 +63,5 @@ public void country()
 {
 drpcountry.sendKeys("United Kingdom");
 }
+
 }

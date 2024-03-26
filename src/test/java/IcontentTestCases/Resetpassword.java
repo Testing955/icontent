@@ -1,6 +1,7 @@
 package IcontentTestCases;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 import IcontentPageObject.Forgotpassword;
 import IcontentTestBase.Baseclass;

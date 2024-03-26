@@ -41,11 +41,11 @@ public String randomString()
 String generatedString = RandomStringUtils.randomAlphabetic(7);
 return generatedString;
 }
-/*public String randomNumber()
+public String randomNumber()
 {
 String generatedString = RandomStringUtils.randomNumeric(10);
 return generatedString;
-}*/
+}
 public String randomAlphaNumeric()
 {
 	String str=RandomStringUtils.randomAlphabetic(3);

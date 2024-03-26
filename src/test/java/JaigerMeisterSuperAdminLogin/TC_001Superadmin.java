@@ -13,14 +13,16 @@ public void verify_superadminlogin()
 try
 {
 Superadmin sa=new Superadmin(driver);
+
 sa.superemailfield();
 sa.superpasswordfield();
 sa.loginbutton();
-Thread.sleep(5000);
 sa.campaign();
 sa.activity();
 sa.alldrop();
 sa.country();
+
+//String confmsg=sa.getConfirmationMsg();
 }
 catch(Exception e)
 {
