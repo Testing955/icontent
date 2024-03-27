@@ -36,7 +36,7 @@ Thread.sleep(50000);
 catch(Exception e)
 {
 logger.error("test failed...");	
-AssertJUnit.fail();
+Assert.fail();
 }
 }
 }
